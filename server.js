@@ -6,8 +6,9 @@ const cors = require('cors');
 const logger = require('morgan');
 const knex = require('./db/knex');
 
-const index = require('./routes/indexRoutes');
-// const products = require('./routes/productRoutes');
+
+const products = require('./routes/productRoutes');
+const orders = require('./routes/orderRoutes');
 
 const app = express();
 
@@ -19,8 +20,8 @@ app.use(cors());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/', index);
-// app.use('/products', products);
+app.use('/products', products);
+app.use('/orders', orders);
 
 app.listen(port, function() {
   console.log("listening on port: ", port);

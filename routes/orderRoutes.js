@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const knex = require('../db/knex');
 
-/* GET home page. */
-router.get('/products', function(req, res, next) {
-  knex('products').then(products => res.json(products))
+/* GET orders page. */
+router.get('/', function(req, res, next) {
+  knex('orders').then(orders => res.json(orders))
 });
 
 module.exports = router;

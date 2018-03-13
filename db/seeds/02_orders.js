@@ -5,8 +5,8 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('orders').insert([
-        {name: 'Triple Stack', total price: '700' },
-        {name: 'Curro Tower', total price: '800' }
+        {name: 'Triple Stack', price: '700' },
+        {name: 'Curro Tower', price: '800' }
       ]);
     });
 };
