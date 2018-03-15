@@ -4,9 +4,11 @@ exports.seed = function(knex, Promise) {
   return knex('orders').del()
     .then(function () {
       // Inserts seed entries
-      return knex('orders').insert([
-        {name: 'Triple Stack', price: '700' },
-        {name: 'Curro Tower', price: '800' }
+      return knex("orders").insert([
+        { cust_name: "John" },
+        { cust_name: "Carlos" },
+        { cust_name: "Jenn" },
+        { cust_name: "Nick" }
       ]);
     });
 };
