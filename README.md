@@ -1,4 +1,4 @@
-Project Title: Churro Gonutz Order App
+Project Title: Churro Gonutz App
 
 Project Description: A fullstack app to order products from Churro Gonutz, a small business with custom made churro donuts. The app will feature photos and descriptions of the products as well as prices.
 
@@ -8,7 +8,7 @@ Outputs will be the customer orders that are generated. These generated orders w
 
 Inputs will a form featuring products with customizable items that can be added. The customer can choose the size and toppings of the donuts, this will generate the order to be made by the staff.
 
-Technologies to be utilized: Front end framework - React, Client side routing - react-router, State management library - Redux, Stying - React-strap, Bootswatch
+Technologies to be utilized: Front end framework - React, Client side routing - react-router, State management library - Redux, Stying - React-strap
 
 Feature list / Stories:
 
