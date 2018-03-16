@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.string('name').notNullable();
     table.string('description').notNullable();
-    table.integer('price').notNullable();
+    table.string('price').notNullable();
     table.text('img_url');
     table.timestamps(true, true);
   });
