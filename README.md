@@ -16,8 +16,8 @@ Nav bar - Home/Contact, Products, Cart - DONE
 
 As a user I go to the Home page and see a splash page with contact information on Churro GoNutz and logo. It will feature a photo of one of the products. - DONE
 
-As a user I go to the products page to view products in a list. Here I can click on a product to add it to my order(cart). - DONE but need to create CART to connect button.
+As a user I go to the products page to view products in a list. Here I can click on a product to add it to my order(cart). - DONE 
 
-As a user I go to my order(cart) page to see my order. As a user I can remove, add or delete items from my order until it is correct. I can send a message to the employees of Churro Gonutz to start to prepare my order.   
+As a user I go to my order(cart) page to see my order. As a user I can remove, add or delete items from my order until it is correct. I can send a message to the employees of Churro Gonutz to start to prepare my order.  ADDED BUTTONS 
 
-As a user/employee of Churro Gonutz I can view  contain customers orders. As a user/employee I can prep the orders for the customers to be picked up at the current location of Churro Gonutz. 
+As a user/employee of Churro Gonutz I can view customers orders. As a user/employee I can prep the orders for the customers to be picked up at the current location of Churro Gonutz. SAME PAGE AS ABOVE
